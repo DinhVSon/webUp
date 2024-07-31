@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slozy</title>
+    <!------------------------- icon library ----------------------------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!----------------------- animate library ----------------------------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!------------------------------- css ------------------------------>
+    <link rel="stylesheet" href="/assets/css/base.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <!----------------------------- start header ------------------------->
+    <header class="header">
+      <div class="container">
+        <div class="innerWrap">
+          <div class="mainLogo">
+            <a href="#"><img src="/assets/img/Logo1.png" alt="mainLogo" /></a>
+          </div>
+
+          <nav>
+            <div class="menu-icon" onclick="dropdown()">☰</div>
+            <ul class="menu">
+              <li><a href="#about">About&#160;Me</a></li>
+              <li><a href="#story">Story</a></li>
+              <li><a href="#hobby">Hobby</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+
+          <!-- <nav class="menu">
+            <ul>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#story">Story</a></li>
+              <li><a href="#hobby">Hobby</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav> -->
+          <div class="search">
+            <form action="#">
+              <button class="searchIcon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+              <input
+                type="search"
+                class="searchInput"
+                placeholder="   Search..."
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!------------------------ End header -------------------------->
+
+    <!------------------------- webTitle --------------------------->
+    <article class="webTitle">
+      <div class="overBg"></div>
+      <div class="container">
+        <div class="innerWrap">
+          <h1 class="innerTitle" data-aos="zoom-in">Wellcome to my page</h1>
+          <h2 class="innerContent" data-aos="zoom-in-up">
+            "I hope you have a great day!"
+          </h2>
+        </div>
+      </div>
+    </article>
+    <!-------------------------- End webTitle-------------------------->
+
+    <!-------------------------- starContentOne ----------------------->
+    <section id="about" class="contentOne">
+      <div class="container">
+        <div class="innerWrap">
+          <div class="innerItem">
+            <div
+              class="innerImg"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
+              <div class="avatar"></div>
+            </div>
+            <div class="innerContent" data-aos="fade-left">
+              <div class="innerTitle">About me:</div>
+              <div class="innerDesc">
+                My name is Đinh Văn Sơn. <br />I am currently studying at the
+                JIBC. <br />I aspire to become a software engineer in the
+                future.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------------------- endContentOne ----------------------->
+
+    <!-------------------------- starContentTwo ----------------------->
+    <section class="contentTwo">
+      <div class="container">
+        <div class="innerWrap">
+          <div class="innerItem">
+            <div class="innerContent">
+              <div
+                class="innerTitle"
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
+                My design
+              </div>
+              <div
+                class="innerDesc"
+                data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
+                Besides learning to code, design is also a subject I really
+                enjoy. Here are some of my favorite designs I created while
+                studying at school. If you like them too and have beautiful
+                designs, please share them with me!
+              </div>
+            </div>
+            <div class="innerImg">
+              <div
+                class="imgItem"
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+              >
+                <div class="cream"></div>
+              </div>
+              <div
+                class="imgItem"
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+              >
+                <div class="report"></div>
+              </div>
+              <div
+                class="imgItem"
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+              >
+                <div class="banhmy"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------------------- endContentTwo ----------------------->
+
+    <!-------------------------- startContentThree ----------------------->
+    <section id="story" class="contentThree">
+      <div class="container">
+        <div class="innerWrap">
+          <div class="innerBg_1"></div>
+          <div class="innerItem">
+            <div class="innerBox">
+              <div class="boxItem">
+                <div class="box"></div>
+                <span class="boxContent" data-aos="zoom-in-left"
+                  >2009-小学校卒業</span
+                >
+              </div>
+              <div class="boxItem">
+                <div class="box"></div>
+                <span class="boxContent" data-aos="zoom-in-left"
+                  >2013-中学校卒業</span
+                >
+              </div>
+              <div class="boxItem">
+                <div class="box"></div>
+                <span class="boxContent" data-aos="zoom-in-left"
+                  >2016-高校卒業</span
+                >
+              </div>
+              <div class="boxItem">
+                <div class="box"></div>
+                <span class="boxContent" data-aos="zoom-in-left"
+                  >2018-実習生として日本に来ました</span
+                >
+              </div>
+              <div class="boxItem">
+                <div class="box"></div>
+                <span class="boxContent" data-aos="zoom-in-left"
+                  >2022-技能特定転職</span
+                >
+              </div>
+              <div class="boxItem">
+                <div class="box"></div>
+                <span class="boxContent" data-aos="zoom-in-left"
+                  >2024-日本ITビジネスカレッジ</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------------------- endContentThree ----------------------->
+
+    <!-------------------------- startContentFour ----------------------->
+    <section id="hobby" class="contentFour">
+      <div class="container">
+        <div class="innerWrap">
+          <div class="innerTitle">My hobby:</div>
+          <div class="innerContent">
+            <div class="contentItem">
+              <div class="imgItem">
+                <div class="cook"></div>
+              </div>
+              <div class="desc">Cook</div>
+            </div>
+
+            <div class="contentItem">
+              <div class="imgItem">
+                <div class="book"></div>
+              </div>
+              <div class="desc">Book</div>
+            </div>
+
+            <div class="contentItem">
+              <div class="imgItem">
+                <div class="anime"></div>
+              </div>
+              <div class="desc">Anime</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------- endContentFour ----------------------->
+
+    <!-------------------------- startContentFive ----------------------->
+    <section class="contentFive">
+      <div class="container">
+        <div class="innerWrap">
+          <div class="innerContent" data-aos="fade-down">
+            "I started studying IT in 2024 when I was 25 years old. It's a bit
+            late, but for me, it was the right decision. I have a wonderful
+            teacher. Her name is Fukahori. She made me feel excited to learn her
+            subject.Here are some websites about HTML, CSS, and JS that I often
+            use. You can refer to them to improve your studies."
+          </div>
+          <div class="innerItem">
+            <div class="item">
+              <div class="icon"><i class="fa-solid fa-code-compare"></i></div>
+              <div class="link">
+                <a href="https://developer.mozilla.org/ja/" target="_blank"
+                  >mozilla.org</a
+                >
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="icon"><i class="fa-solid fa-code"></i></div>
+              <div class="link">
+                <a href="https://www.w3schools.com/" target="_blank"
+                  >w3schools</a
+                >
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="icon"><i class="fa-solid fa-book-skull"></i></div>
+              <div class="link">
+                <a href="https://cdnjs.com/" target="_blank">cdnjs.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------- endContentFive ----------------------->
+
+    <!-------------------------- startContentSix ----------------------->
+    <section class="contentSix">
+      <div class="container">
+        <div class="innerWrap">
+          <div class="innerTitle" data-aos="fade-right">
+            A quote that I really like:
+          </div>
+          <div class="innerDesc" data-aos="fade-left">
+            "「天は人の上に人を造らず人の下に人を造らず」"<br />- 福沢諭吉
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------- endContentSix ----------------------->
+    <!-------------------------- startContentSeven ----------------------->
+    <section class="contentSeven">
+      <div class="container">
+        <div class="innerWrap">
+          <div class="innerContent">
+            <div class="innerTitle">Study with Me</div>
+            <div class="innerDesc" data-aos="fade-right">
+              Discord <br />
+              Night 20h-24h <br /><br />
+              Link:
+              <br />
+              <a href="https://discord.gg/FJS25Skdrs" target="_blank"
+                >https://discord.gg/FJS25Skdrs</a
+              >
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-discord fa-bounce"></i>
+            </div>
+          </div>
+          <div class="innerImg">
+            <img src="/assets/img/studyWithMe.jpg" alt="study" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------- endContentSeven----------------------->
+    <!-------------------------- startFooter----------------------->
+    <footer>
+      <div class="container">
+        <div class="innerWrap">
+          <div class="innerInfo">
+            <form class="info" action="#" method="post" target="_blank">
+              <table>
+                <caption>
+                  <div class="innerTitle">
+                    "Leave your contact information for me."
+                  </div>
+                </caption>
+                <tr>
+                  <td>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="    Your name..."
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="text"
+                      name="phone"
+                      id="phone"
+                      placeholder="    Phone Number..."
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="    Email..."
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <button class="footerBtn">Summit</button>
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </div>
+
+          <div class="footerLogo" id="contact">
+            <div class="sgk"><img src="/assets/img/as.png" alt="" /></div>
+            <div class="footerContent">
+              <h3>Contact:</h3>
+              <p>701-4212岡山県瀬戸内市邑久町尻海2968</p>
+              <p>Hotline: 09080001369</p>
+              <p>Email:ib240008dinh@setouchicollege.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="social">
+        <div class="social_item face">
+          <a
+            href="https://www.facebook.com/profile.php?id=100040465111820"
+            target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+        <div class="social_item insta">
+          <a href="https://www.instagram.com/gomu.gomu.940/" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+        <div class="social_item dis">
+          <a href="https://discord.gg/FJS25Skdrs" target="_blank"
+            ><i class="fa-brands fa-discord"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-------------------------- endFooter----------------------->
+
+    <!-- js -->
+    <script src="/assets/js.js/main.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      AOS.init({
+        duration: 600,
+        easing: "ease-in-out",
+        once: true,
+      });
+    </script>
+    <script>
+      const searchIcon = document.querySelector(".searchIcon");
+      const searchInput = document.querySelector(".searchInput");
+      const searchBtn = document.querySelector(".btn");
+      searchIcon.addEventListener("click", function () {
+        searchInput.style.display = "block";
+        searchInput.focus();
+      });
+    </script>
+    <script>
+      function dropdown() {
+        const menu = document.querySelector(".menu");
+        if (menu.style.display === "flex") {
+          menu.style.display = "none";
+        } else {
+          menu.style.display = "flex";
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+/*--------------- fontFamily ----------------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+/* ---------------color----------------- */
+:root {
+  --bgColorOne: #d4c4b7;
+  --bgColorTwo: #efe9e4;
+  --bgColorThree: #ebecf0;
+  --colorOne: #584e3f;
+  --colorTwo: #ffffff;
+}
+:root {
+  --animate-duration: 900ms;
+  --animate-delay: 0.9s;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background: var(--bgColorThree);
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+  color: var(--colorOne);
+}
+ul {
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  display: inline;
+  width: calc(100% / 4);
+}
+section .container {
+  background: var(--bgColorThree);
+  width: 100%;
+  height: 650px;
+  margin-top: 70px;
+}
+section .container .innerWrap {
+  background: var(--bgColorTwo);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  margin: 0 7em;
+  border-radius: 15px;
+  width: auto;
+  height: 100%;
+}
+section .container .innerWrap .innerTitle {
+  font-size: 3em;
+  padding-bottom: 1em;
+}
+section .container .innerWrap .innerDesc {
+  font-size: 1.2em;
+}
+/*---------------------------- screen 1024x768------------------ */
+@media screen and (max-width: 1024px) {
+  section .container .innerWrap {
+    margin: 0 1em;
+  }
+}
+/*---------------------------- screen 768x1024----------------- */
+@media screen and (max-width: 768px) {
+  section .container {
+    height: 100%;
+  }
+}
